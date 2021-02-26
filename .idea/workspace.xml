@@ -28,12 +28,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fdd226d-c1cf-432f-b304-815ccf6b476f" name="디폴트 변경 목록" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/github/netherald/duel/listeners/TntThrowListener.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/duel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/duel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/github/netherald/duel/DuelPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/github/netherald/duel/DuelPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +37,11 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -54,16 +54,16 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="duel" type="f1a62948:ProjectNode" />
+                <item name="explosion-duel" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="duel" type="f1a62948:ProjectNode" />
+                <item name="explosion-duel" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="duel" type="f1a62948:ProjectNode" />
+                <item name="explosion-duel" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -153,28 +153,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="735" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1614315295495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="735" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614315295495" />
-    <state width="1879" height="276" key="GridCell.Tab.0.bottom" timestamp="1614315543704">
+    <state width="1879" height="276" key="GridCell.Tab.0.bottom" timestamp="1614327140785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614315543704" />
-    <state width="1879" height="276" key="GridCell.Tab.0.center" timestamp="1614315543704">
+    <state width="1879" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614327140785" />
+    <state width="1879" height="276" key="GridCell.Tab.0.center" timestamp="1614327140785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614315543704" />
-    <state width="1879" height="276" key="GridCell.Tab.0.left" timestamp="1614315543703">
+    <state width="1879" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614327140785" />
+    <state width="1879" height="276" key="GridCell.Tab.0.left" timestamp="1614327140785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614315543703" />
-    <state width="1879" height="276" key="GridCell.Tab.0.right" timestamp="1614315543704">
+    <state width="1879" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614327140785" />
+    <state width="1879" height="276" key="GridCell.Tab.0.right" timestamp="1614327140785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614315543704" />
+    <state width="1879" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614327140785" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1614312737872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
