@@ -9,7 +9,7 @@ version = properties["pluginVersion"]!!
 
 repositories {
     mavenCentral()
-    maven("https://papermc.io/repo/repository/maven-public/")
+    maven(url = "https://papermc.io/repo/repository/maven-public/")
 
     jcenter()
     maven("https://jitpack.io/")
@@ -17,10 +17,11 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    implementation("org.codehaus.groovy:groovy-all:2.3.11") // TODO Test Groovy
 
     compileOnly("mysql:mysql-connector-java:8.0.23")
-    compileOnly("com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT")
     compileOnly("com.github.ProjectTL12345:InventoryGUI:2.0.0")
+    compileOnly("org.github.paperspigot:paperspigot-api:1.8.8-R0.1-SNAPSHOT")
 }
 
 val shade = configurations.create("shade")
