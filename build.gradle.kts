@@ -2,6 +2,7 @@ plugins {
     java
     kotlin("jvm") version "1.4.30"
     id("com.github.johnrengelman.shadow") version "6.1.0"
+    `maven-publish`
 }
 
 group = properties["pluginGroup"]!!
@@ -46,7 +47,21 @@ tasks {
         }
     }
 
+    create<Jar>("sourceJar") {
+        archiveClassifier.set("source")
+        from(sourceSets["Main"].allSource)
+    }
+
     jar {
         from (shade.map { if (it.isDirectory) it else zipTree(it) })
+    }
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("explosion-duel") {
+            artifact(tasks["sourceJar"])
+            from(components["java"])
+        }
     }
 }
