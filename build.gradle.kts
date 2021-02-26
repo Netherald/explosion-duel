@@ -16,9 +16,9 @@ repositories {
 }
 
 dependencies {
-    implementation(kotlin("stdlib-jdk8"))
-    compileOnly("mysql:mysql-connector-java:8.0.23")
+    implementation(kotlin("stdlib"))
 
+    compileOnly("mysql:mysql-connector-java:8.0.23")
     compileOnly("com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT")
     compileOnly("com.github.ProjectTL12345:InventoryGUI:2.0.0")
 }
@@ -36,7 +36,7 @@ tasks {
     }
 
     compileKotlin {
-        kotlinOptions.jvmTarget = "1.8"
+        kotlinOptions.jvmTarget = "11"
     }
 
     processResources {
