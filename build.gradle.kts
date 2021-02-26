@@ -49,7 +49,7 @@ tasks {
 
     create<Jar>("sourceJar") {
         archiveClassifier.set("source")
-        from(sourceSets["Main"].allSource)
+        from(sourceSets["main"].allSource)
     }
 
     jar {
