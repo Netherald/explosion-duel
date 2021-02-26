@@ -1,2 +1,2 @@
-rootProject.name = "duel"
+rootProject.name = "explosion-duel"
 
