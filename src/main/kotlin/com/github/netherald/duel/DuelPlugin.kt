@@ -1,5 +1,6 @@
 package com.github.netherald.duel
 
+import com.github.netherald.duel.commands.DuelItemCommand
 import com.github.netherald.duel.listeners.TntThrowListener
 import org.bukkit.configuration.file.FileConfiguration
 import org.bukkit.configuration.file.YamlConfiguration
@@ -14,8 +15,19 @@ class DuelPlugin: JavaPlugin() {
     private val manager:PluginManager = server.pluginManager
 
     override fun onEnable() {
+        // Load
         load()
+
+        // Register Commands
+        getCommand("duelitem").also {
+            it.executor = DuelItemCommand()
+            it.tabCompleter = DuelItemCommand()
+        }
+
+        // Register Events
         manager.registerEvents(TntThrowListener(),this)
+
+        // Logger
         logger.info("Enable Code") // Test Code
     }
 
