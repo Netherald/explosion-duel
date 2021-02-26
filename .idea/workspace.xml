@@ -28,7 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fdd226d-c1cf-432f-b304-815ccf6b476f" name="디폴트 변경 목록" comment="">
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/github/netherald/duel/commands/DuelItemCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/github/netherald/duel/DuelPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/github/netherald/duel/DuelPlugin.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,26 +158,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="735" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1614315295495">
+    <state x="735" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1614339215703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="735" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614315295495" />
-    <state width="1879" height="276" key="GridCell.Tab.0.bottom" timestamp="1614327140785">
+    <state x="735" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614339215703" />
+    <state width="1879" height="276" key="GridCell.Tab.0.bottom" timestamp="1614341257409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614327140785" />
-    <state width="1879" height="276" key="GridCell.Tab.0.center" timestamp="1614327140785">
+    <state width="1879" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614341257409" />
+    <state width="1879" height="276" key="GridCell.Tab.0.center" timestamp="1614341257409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614327140785" />
-    <state width="1879" height="276" key="GridCell.Tab.0.left" timestamp="1614327140785">
+    <state width="1879" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614341257409" />
+    <state width="1879" height="276" key="GridCell.Tab.0.left" timestamp="1614341257408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614327140785" />
-    <state width="1879" height="276" key="GridCell.Tab.0.right" timestamp="1614327140785">
+    <state width="1879" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614341257408" />
+    <state width="1879" height="276" key="GridCell.Tab.0.right" timestamp="1614341257409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614327140785" />
+    <state width="1879" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614341257409" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1614312737872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
