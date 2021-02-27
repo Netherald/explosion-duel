@@ -27,35 +27,41 @@ class TntThrowListener : Listener {
 
         if (item.itemMeta.displayName == tlName) {
 
-            if (action == Action.RIGHT_CLICK_AIR && item.type == Material.TNT) {
+            val tntThrow = {
                 val v = 2
                 val direction:Vector = player.eyeLocation.direction.multiply(v)
                 val tnt = player.world.spawn(player.eyeLocation.add(direction),TNTPrimed::class.java)
 
                 tnt.velocity = direction
-                player.sendMessage("발사!")
+                player.sendMessage("발사!")}
 
+            if (action == Action.RIGHT_CLICK_AIR && item.type == Material.TNT) {
+                tntThrow()
             }
             else if (action == Action.RIGHT_CLICK_BLOCK && item.type == Material.TNT) {
                 e.isCancelled = true
+                tntThrow()
             }
 
         }
 
         else if (item.itemMeta.displayName == nlName) {
 
-            if (action == Action.RIGHT_CLICK_AIR && item.type == Material.FIREBALL) {
+            val nuclearThrow = {->
                 val v = 2
                 val direction:Vector = player.eyeLocation.direction.multiply(v)
                 val ball = player.world.spawn(player.eyeLocation.add(direction),Fireball::class.java)
                 dangerIds.add(ball.uniqueId)
                 ball.velocity = direction
                 player.sendMessage("발사!")
+            }
 
+            if (action == Action.RIGHT_CLICK_AIR && item.type == Material.FIREBALL) {
+                nuclearThrow()
             }
             else if (action == Action.RIGHT_CLICK_BLOCK && item.type == Material.FIREBALL) {
-
                 e.isCancelled = true
+                nuclearThrow()
             }
         }
     }
