@@ -27,10 +27,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fdd226d-c1cf-432f-b304-815ccf6b476f" name="디폴트 변경 목록" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5fdd226d-c1cf-432f-b304-815ccf6b476f" name="디폴트 변경 목록" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,17 +116,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="explosion-duel [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -166,8 +152,16 @@
       <option name="presentableId" value="Default" />
       <updated>1614308979528</updated>
       <workItem from="1614426222304" duration="154000" />
-      <workItem from="1614426388284" duration="172000" />
+      <workItem from="1614426388284" duration="448000" />
     </task>
+    <task id="LOCAL-00001" summary="Uh">
+      <created>1614426723615</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614426723615</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,5 +178,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Uh" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uh" />
   </component>
 </project>
