@@ -13,9 +13,9 @@ repositories {
     maven(url = "https://papermc.io/repo/repository/maven-public/")
 
     jcenter()
-    maven("https://jitpack.io/")
-
-    mavenLocal()
+    maven(url = "https://jitpack.io/")
+    maven(url = "https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
+    maven(url = "https://oss.sonatype.org/content/groups/public/")
 }
 
 dependencies {
@@ -25,7 +25,8 @@ dependencies {
     compileOnly("mysql:mysql-connector-java:8.0.23")
     compileOnly("com.github.ProjectTL12345:InventoryGUI:2.0.0")
     compileOnly("org.github.paperspigot:paperspigot-api:1.8.8-R0.1-SNAPSHOT")
-    compileOnly("org.spigotmc:spigot:1.8.8-R0.1-SNAPSHOT")
+
+    kotlinCompilerClasspath("org.spigotmc:spigot:1.8.8-R0.1-SNAPSHOT")
 }
 
 val shade = configurations.create("shade")
