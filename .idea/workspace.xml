@@ -27,7 +27,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fdd226d-c1cf-432f-b304-815ccf6b476f" name="디폴트 변경 목록" comment="" />
+    <list default="true" id="5fdd226d-c1cf-432f-b304-815ccf6b476f" name="디폴트 변경 목록" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/explosion-duel.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/github/netherald/duel/listeners/TntThrowListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/github/netherald/duel/listeners/TntThrowListener.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +121,28 @@
       <recent name="$PROJECT_DIR$/testServer" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.explosion-duel [build]">
+    <configuration name="explosion-duel [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="explosion-duel [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -140,6 +167,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.explosion-duel [build]" />
+        <item itemvalue="Gradle.explosion-duel [buildDependents]" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +181,7 @@
       <updated>1614308979528</updated>
       <workItem from="1614426222304" duration="154000" />
       <workItem from="1614426388284" duration="448000" />
+      <workItem from="1614433148567" duration="5853000" />
     </task>
     <task id="LOCAL-00001" summary="Uh">
       <created>1614426723615</created>
