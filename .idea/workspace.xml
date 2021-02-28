@@ -28,10 +28,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fdd226d-c1cf-432f-b304-815ccf6b476f" name="디폴트 변경 목록" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/explosion-duel.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/github/netherald/duel/listeners/TntThrowListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/github/netherald/duel/listeners/TntThrowListener.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +106,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/testServer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testServer/plugins" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -118,6 +115,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testServer/plugins" />
       <recent name="$PROJECT_DIR$/testServer" />
     </key>
   </component>
@@ -182,6 +180,7 @@
       <workItem from="1614426222304" duration="154000" />
       <workItem from="1614426388284" duration="448000" />
       <workItem from="1614433148567" duration="5853000" />
+      <workItem from="1614477735319" duration="4225000" />
     </task>
     <task id="LOCAL-00001" summary="Uh">
       <created>1614426723615</created>
@@ -190,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614426723615</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="중간저장">
+      <created>1614477799606</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614477799606</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +216,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Uh" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uh" />
+    <MESSAGE value="중간저장" />
+    <option name="LAST_COMMIT_MESSAGE" value="중간저장" />
   </component>
 </project>
