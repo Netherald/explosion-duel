@@ -1,6 +1,7 @@
 package com.github.netherald.duel
 
 import com.github.netherald.duel.commands.DuelItemCommand
+import com.github.netherald.duel.listeners.PluginMessageListener
 import com.github.netherald.duel.listeners.TntThrowListener
 import org.bukkit.configuration.file.FileConfiguration
 import org.bukkit.configuration.file.YamlConfiguration
@@ -17,6 +18,9 @@ class DuelPlugin: JavaPlugin() {
     override fun onEnable() {
         // Load
         load()
+        checkIfBungee()
+        if (server.pluginManager.isPluginEnabled(this)) return
+        server.messenger.registerIncomingPluginChannel(this,"exduel:channel",PluginMessageListener(this))
 
         // Register Commands
         getCommand("duelitem").also {
@@ -54,5 +58,14 @@ class DuelPlugin: JavaPlugin() {
 
     fun duelConfig(): FileConfiguration? {
         return configuration
+    }
+
+    private fun checkIfBungee() {
+        if (server.spigot().paperSpigotConfig.getConfigurationSection("settings").getBoolean("settings.bungeecord")) {
+            logger.severe( "This server is not BungeeCord." )
+            logger.severe(  "Plugin disabled!")
+            server.pluginManager.disablePlugin(this)
+        }
+
     }
 }
